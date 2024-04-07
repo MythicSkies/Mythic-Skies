@@ -1,0 +1,53 @@
+{
+  "mod_elements": [
+    {
+      "name": "SitaraWyvern",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sitara_wyvern",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mythic_skies/forge/biome_modifier/sitara_wyvern_biome_modifier.json",
+          "src/main/java/net/mcreator/mythicskies/client/renderer/SitaraWyvernRenderer.java",
+          "src/main/java/net/mcreator/mythicskies/entity/model/SitaraWyvernModel.java",
+          "src/main/java/net/mcreator/mythicskies/entity/SitaraWyvernEntity.java",
+          "src/main/resources/assets/mythic_skies/models/item/sitara_wyvern_spawn_egg.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.mythic_skies.sitara_wyvern_spawn_egg": "Sitara Wyvern Spawn Egg",
+      "entity.mythic_skies.sitara_wyvern": "Sitara Wyvern"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mythic_skies",
+    "modName": "Mythic Skies",
+    "version": "1.0.0",
+    "author": "makay, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mythicskies",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
